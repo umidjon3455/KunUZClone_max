@@ -161,3 +161,14 @@ Misol:
 GitHub:
 https://github.com/umidjon3455
 ..
+
+
+## Environment configuration
+
+Copy `.env.example` to `.env` and replace `DJANGO_SECRET_KEY` with a newly generated random key before starting the project. Keep `.env` private and never commit it. `DJANGO_DEBUG=True` is for local development only; use `False` and configure `DJANGO_ALLOWED_HOSTS` for production.
+
+Generate a new key with:
+
+```bash
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
