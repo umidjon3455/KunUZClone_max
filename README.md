@@ -60,13 +60,13 @@ kunuzclone/
 ### 1️⃣ Repository ni clone qiling
 
 ```bash
-git clone https://github.com/umidjon3455/KunUzClone_5.git
+git clone https://github.com/umidjon3455/KunUZClone_max.git
 ```
 
 ### 2️⃣ Papkaga kiring
 
 ```bash
-cd KunUzClone_5
+cd KunUZClone_max
 ```
 
 ### 3️⃣ Virtual environment yarating
@@ -92,8 +92,8 @@ source venv/bin/activate
 ### 5️⃣ Kerakli kutubxonalarni o‘rnating
 
 ```bash
-pip install django
-pip install pillow
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 ### 6️⃣ Migratsiya qiling
